@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Hiển Thị Ảnh Sản Phẩm</title>
+    <script>
+        function getImage() {
+            const masp = 'SP01';  // Thay thế với mã sản phẩm bạn muốn tìm
+            fetch(`http://192.168.1.8:3333/sanpham/getanh/SP01`)
+                .then(response => response.json())
+                .then(data => {
+                    const imgContainer = document.getElementById('img-container');
+                    imgContainer.innerHTML = ''; // Xóa nội dung cũ
+                    data.forEach(item => {
+                        const img = document.createElement('img');
+                        img.src = `data:image/jpeg;base64,${item.TenFileAnh}`;
+                        img.alt = item.TenSP;
+                        img.style.width = '200px'; // Kích thước ảnh
+                        imgContainer.appendChild(img);
+                    });
+                })
+                .catch(error => console.error('Lỗi:', error));
+        }
+
+        // Gọi hàm khi trang được tải
+        window.onload = getImage;
+    </script>
+</head>
+<body>
+    <h1>Ảnh Sản Phẩm</h1>
+    <div id="img-container"></div>
+</body>
+</html>

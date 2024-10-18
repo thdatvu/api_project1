@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="24.7.12">
+  <diagram name="Trang-1" id="twRpgGdnLdZvOM78sQj8">
+    <mxGraphModel dx="1050" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HmvyfzcOoQYhJ-aqiPCb-1" value="Khách hàng" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="70" y="150" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HmvyfzcOoQYhJ-aqiPCb-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="HmvyfzcOoQYhJ-aqiPCb-1" target="HmvyfzcOoQYhJ-aqiPCb-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="220" as="sourcePoint" />
+            <mxPoint x="170" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HmvyfzcOoQYhJ-aqiPCb-4" value="Xem thông tin tài khoản" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="170" y="145" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HmvyfzcOoQYhJ-aqiPCb-5" value="extend" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.98;entryY=0.3;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="372.4" y="176" as="sourcePoint" />
+            <mxPoint x="289.9999999999999" y="176" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HmvyfzcOoQYhJ-aqiPCb-8" value="Chỉnh sửa thông tin" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="372.4" y="145" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XbF8GGHUHGV_srhs2pVO-1" value="Chỉnh sửa tên" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="70" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XbF8GGHUHGV_srhs2pVO-2" value="Chỉnh sửa số điện thoại" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="130" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XbF8GGHUHGV_srhs2pVO-3" value="Chỉnh sửa địa chỉ" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="190" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XbF8GGHUHGV_srhs2pVO-4" value="Chỉnh sửa gmail" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="250" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XbF8GGHUHGV_srhs2pVO-5" value="extend" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XbF8GGHUHGV_srhs2pVO-1" target="HmvyfzcOoQYhJ-aqiPCb-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="452.4" y="260" as="sourcePoint" />
+            <mxPoint x="369.9999999999999" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XbF8GGHUHGV_srhs2pVO-6" value="extend" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XbF8GGHUHGV_srhs2pVO-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="530" y="105" as="sourcePoint" />
+            <mxPoint x="473" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XbF8GGHUHGV_srhs2pVO-7" value="extend" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.987;entryY=0.731;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="XbF8GGHUHGV_srhs2pVO-3" target="HmvyfzcOoQYhJ-aqiPCb-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="540" y="165" as="sourcePoint" />
+            <mxPoint x="483" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XbF8GGHUHGV_srhs2pVO-8" value="extend" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.02;exitY=0.364;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="XbF8GGHUHGV_srhs2pVO-4" target="HmvyfzcOoQYhJ-aqiPCb-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="540" y="225" as="sourcePoint" />
+            <mxPoint x="501" y="206" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
